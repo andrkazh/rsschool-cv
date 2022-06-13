@@ -1,3 +1,52 @@
-h1 {
-    color: red;
+/*
+* {
+    margin: 0;
+    padding: 0;
+  }
+  */
+  html,
+  body {
+    height: 100%;
+  }
+  .body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .main {
+    flex: 1 0 auto;
+  }
+  .footer {
+    flex: 0 0 auto;
+  }
+  .footer {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+ main {
+     display: flex;
+     flex-direction: row;
+ }
+ 
+  /*
+.body {
+    border: 1px solid red;
 }
+.header {
+    border: 1px solid red;
+}
+
+.main {
+    border: 1px solid red;
+}
+.about {
+    border: 1px solid red;
+}
+.aboutMe {
+    border: 1px solid red;
+}
+.footer {
+    border: 1px solid red;
+}
+*/
