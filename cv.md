@@ -24,8 +24,7 @@ I have no programming experience.
     + Minsk State College Of Electronics
 * University
     + Institute of Entrepreneurship
-    
-## Language
-English: Beginner
 
-Russian: Native
+## Language
+* English: Beginner
+* Russian: Native
