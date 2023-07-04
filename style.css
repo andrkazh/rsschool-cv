@@ -3,6 +3,9 @@ body {
     margin: auto;
 }
 
+header {
+    background-color: bisque;
+}
 main {
     display: flex;
     background-color: bisque;
@@ -12,13 +15,27 @@ main {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    padding: 0px;
+    font-size: 24px;
 }
 
 h1, h2 {
     text-align: center;
+    font-size: 32px;
+}
+.myName {
+    font-size: 24px;
 }
 
 .avatar {
     border-radius: 50%;
-    margin: 50px;
+    margin: 40px 40px 20px 40px;
+}
+
+.myFoto {
+    border-bottom: solid 2px;
+}
+
+.sectionTwo {
+    border-left: solid 2px;
 }
