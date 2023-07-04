@@ -1,14 +1,16 @@
 body {
     max-width: 960px;
     margin: auto;
+    border: solid 2px;
+    border-radius: 10px;
 }
 
-header {
-    background-color: bisque;
-}
+
 main {
     display: flex;
     background-color: bisque;
+    border-top: solid 2px;
+    border-bottom: solid 2px;
 }
 
 .headerNavigation {
@@ -41,4 +43,9 @@ h1, h2 {
 }
 a {
     text-decoration: none;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
 }
