@@ -39,3 +39,6 @@ h1, h2 {
 .sectionTwo {
     border-left: solid 2px;
 }
+a {
+    text-decoration: none;
+}
