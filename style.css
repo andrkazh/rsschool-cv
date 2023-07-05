@@ -3,12 +3,13 @@ body {
     margin: auto;
     border: solid 2px;
     border-radius: 10px;
+    box-shadow: 0px 10px 15px 8px grey;
 }
 
 
 main {
     display: flex;
-    background-color: bisque;
+    background: linear-gradient(grey, pink);
     border-top: solid 2px;
     border-bottom: solid 2px;
     min-height: 100vh;
@@ -44,6 +45,7 @@ h1, h2 {
 }
 a {
     text-decoration: none;
+    color: black;
 }
 
 footer {
@@ -57,3 +59,17 @@ footer {
 .project, .code, .aboutMe {
     text-align: center;
 }
+@keyframes anim {
+    0% {
+        color: black;
+    }
+    50% {
+        color: white;
+    }
+    100% {
+        color:black;
+    }
+    }
+    .animation {
+        animation: anim 2s infinite;
+    }
