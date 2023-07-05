@@ -11,6 +11,7 @@ main {
     background-color: bisque;
     border-top: solid 2px;
     border-bottom: solid 2px;
+    min-height: 100vh;
 }
 
 .headerNavigation {
@@ -48,4 +49,11 @@ a {
 footer {
     display: flex;
     justify-content: space-around;
+    padding: 10px;
+}
+.contactList, .skillsList, .educationList, .langList, p, code {
+    font-size: 20px;
+}
+.project, .code, .aboutMe {
+    text-align: center;
 }
