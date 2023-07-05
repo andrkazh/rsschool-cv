@@ -1,0 +1,75 @@
+body {
+    max-width: 960px;
+    margin: auto;
+    border: solid 2px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px 8px grey;
+}
+
+
+main {
+    display: flex;
+    background: linear-gradient(grey, pink);
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+    min-height: 100vh;
+}
+
+.headerNavigation {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 0px;
+    font-size: 24px;
+}
+
+h1, h2 {
+    text-align: center;
+    font-size: 32px;
+}
+.myName {
+    font-size: 24px;
+}
+
+.avatar {
+    border-radius: 50%;
+    margin: 40px 40px 20px 40px;
+}
+
+.myFoto {
+    border-bottom: solid 2px;
+}
+
+.sectionTwo {
+    border-left: solid 2px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.contactList, .skillsList, .educationList, .langList, p, code {
+    font-size: 20px;
+}
+.project, .code, .aboutMe {
+    text-align: center;
+}
+@keyframes anim {
+    0% {
+        color: black;
+    }
+    50% {
+        color: white;
+    }
+    100% {
+        color:black;
+    }
+    }
+    .animation {
+        animation: anim 2s infinite;
+    }
